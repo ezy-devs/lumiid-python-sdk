@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=7.0
+pytest-cov
+responses          # for mocking HTTP calls in tests
+black              # code formatter
+flake8 

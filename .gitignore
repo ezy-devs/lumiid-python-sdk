@@ -1,0 +1,10 @@
+```
+**`.gitignore`**
+```
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+.env 
+test_local.py
