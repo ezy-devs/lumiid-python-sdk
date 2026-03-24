@@ -69,6 +69,8 @@ class LumiID:
 
         except LumiIDError:
             raise
+        except ValueError:
+            raise
         except Exception as e:
             raise LumiIDError(f"Unexpected error: {str(e)}")
             
